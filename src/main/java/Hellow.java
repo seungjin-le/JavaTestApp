@@ -55,7 +55,7 @@ class Hello {
         }
 
 
-        System.out.print("asdfasdfsdfgashjdgfkasgdjhfkajsd");
+
 
         for(int z = 0; z < 10; z++){
 
