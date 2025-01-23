@@ -14,7 +14,6 @@ class Hello {
         float e = 0.1f; // 4 byte ( -3.4E38 ~ 3.4E38 )
         double f = 0.1; //  8 byte ( -1.7E308 ~ 1.7E308 )
 
-
         // 문자형
         String g = "Hello, World!";
         char k = 'a'; //  2 byte ( unicode )
@@ -25,18 +24,13 @@ class Hello {
         // null
         Integer j = null;
 
-
-
-
-
-
         // array
         int[] l = {1, 2, 3, 4, 5};
         String[] m = {"apple", "banana", "cherry"};
 
 
         // enum
-        DayOfWeek weekday = DayOfWeek.SUNDAY;
+        DayOfWeek weekday = DayOfWeek.MONDAY;
 
 
 
@@ -58,8 +52,14 @@ class Hello {
 
 
         for(int z = 0; z < 10; z++){
-
             System.out.println("This is loop iteration ");
         }
+
+
+
+        if(weekday == DayOfWeek.SUNDAY){
+            System.out.println("Today is Sunday");
+        }
+
     }
 }
