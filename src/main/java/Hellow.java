@@ -56,10 +56,5 @@ class Hello {
         }
 
 
-
-        if(weekday == DayOfWeek.SUNDAY){
-            System.out.println("Today is Sunday");
-        }
-
     }
 }
